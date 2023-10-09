@@ -1,0 +1,68 @@
+html {
+    background-color: #0d7755;
+}
+
+p {
+    text-indent: 2em;
+}
+
+#content{
+	width: 888px;
+    background-color: #fdffe8;
+    border-radius: 32px;
+    padding: 32px;
+}
+#imageright{
+	float: right;
+    margin-left: 20px;
+    width: 250px;
+}
+#imageleft{
+	float: left;
+    margin-right: 40px;
+    width: 300px;
+}
+.kepszoveg{
+	font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-indent: 0em;
+}
+
+h1, h2 {
+    color: forestgreen;
+    text-transform: uppercase;
+}
+
+.kep-jobb {
+    border-radius: 16px;
+    border: 2px forestgreen solid;
+    width: 250px;
+    float: right;
+    overflow: hidden;
+}
+
+.kep-bal {
+    border-radius: 16px;
+    border: 2px forestgreen solid;
+    width: 300px;
+    float: left;
+    overflow: hidden;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    text-transform: none;
+}
+
+a:hover {
+    color: red;
+}
