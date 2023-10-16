@@ -66,3 +66,13 @@ a {
 a:hover {
     color: red;
 }
+
+@media screen and (max-width: 600px) {
+    .kep-bal {
+        float: none;
+    }
+
+    .kep-jobb {
+        float: none;
+    }
+}
